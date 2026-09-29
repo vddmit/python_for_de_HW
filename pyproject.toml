@@ -1,0 +1,13 @@
+[project]
+name = "hw"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "jupyterlab>=4.6.4",
+    "kagglehub>=1.0.2",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "pandas-stubs==3.0.5.260914",
+    "types-pandas==2.0.0",
+]
