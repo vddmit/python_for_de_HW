@@ -1,3 +1,7 @@
+# Игнорируем всё...
+*
+
+# ...кроме этих файлов
 !.gitignore
 !pyproject.toml
 !uv.lock
