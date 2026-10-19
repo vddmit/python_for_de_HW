@@ -9,5 +9,6 @@ dependencies = [
     "matplotlib>=3.11.2",
     "pandas>=3.0.6",
     "pandas-stubs==3.0.5.260914",
+    "pydantic>=2.14.1",
     "types-pandas==2.0.0",
 ]
