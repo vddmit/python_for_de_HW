@@ -1,0 +1,523 @@
+{
+  "accounts": {
+    "ACC-1000": {
+      "id": "ACC-1000",
+      "type": "checking",
+      "full_name": "Даниил Воропаев",
+      "balance": "1300.25",
+      "history": [
+        {
+          "operation": "deposit",
+          "amount": "500",
+          "date": "2026-10-19T13:32:57.573951",
+          "balance_after": "1500",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "250.50",
+          "date": "2026-10-19T13:32:57.574933",
+          "balance_after": "1750.50",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "300",
+          "date": "2026-10-19T13:32:57.575494",
+          "balance_after": "1450.50",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "150.25",
+          "date": "2026-10-19T13:32:57.575789",
+          "balance_after": "1300.25",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "10000",
+          "date": "2026-10-19T13:32:57.589730",
+          "balance_after": "1300.25",
+          "status": "fail",
+          "reason": "insufficient funds"
+        }
+      ]
+    },
+    "ACC-1001": {
+      "id": "ACC-1001",
+      "type": "checking",
+      "full_name": "Anna Smith",
+      "balance": "20450",
+      "history": [
+        {
+          "operation": "deposit",
+          "amount": "30000",
+          "date": "2026-10-01T09:00:00",
+          "balance_after": "30000",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "4500",
+          "date": "2026-10-02T13:00:00",
+          "balance_after": "25500",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "12000",
+          "date": "2026-10-03T19:00:00",
+          "balance_after": "13500",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "8000",
+          "date": "2026-10-05T11:00:00",
+          "balance_after": "21500",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "25000",
+          "date": "2026-10-06T16:00:00",
+          "balance_after": "21500",
+          "status": "fail",
+          "reason": "insufficient funds"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "6300",
+          "date": "2026-10-07T10:00:00",
+          "balance_after": "15200",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "15000",
+          "date": "2026-10-09T14:00:00",
+          "balance_after": "30200",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "9750",
+          "date": "2026-10-10T12:00:00",
+          "balance_after": "20450",
+          "status": "success"
+        }
+      ]
+    },
+    "ACC-1002": {
+      "id": "ACC-1002",
+      "type": "checking",
+      "full_name": "Иван Петров",
+      "balance": "25700",
+      "history": [
+        {
+          "operation": "withdraw",
+          "amount": "15000",
+          "date": "2026-10-19T13:32:57.909356",
+          "balance_after": "5000",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "3000",
+          "date": "2026-10-19T13:32:57.929976",
+          "balance_after": "8000",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "12000",
+          "date": "2026-10-19T13:32:57.930612",
+          "balance_after": "20000",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "500",
+          "date": "2026-10-19T13:32:57.931259",
+          "balance_after": "20500",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "7000",
+          "date": "2026-10-19T13:32:57.931674",
+          "balance_after": "27500",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "9000",
+          "date": "2026-10-19T13:32:57.932163",
+          "balance_after": "18500",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "50000",
+          "date": "2026-10-19T13:32:57.932494",
+          "balance_after": "18500",
+          "status": "fail",
+          "reason": "insufficient funds"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "800",
+          "date": "2026-10-19T13:32:57.932806",
+          "balance_after": "17700",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "2000",
+          "date": "2026-10-19T13:32:58.069790",
+          "balance_after": "15700",
+          "status": "success",
+          "transfer_id": "TR-25327E25",
+          "counterparty": "ACC-1003"
+        },
+        {
+          "operation": "deposit",
+          "amount": "10000",
+          "date": "2026-10-19T13:32:58.073147",
+          "balance_after": "25700",
+          "status": "success",
+          "transfer_id": "TR-2DEFCBBE",
+          "counterparty": "ACC-1003"
+        }
+      ]
+    },
+    "ACC-1003": {
+      "id": "ACC-1003",
+      "type": "savings",
+      "full_name": "Maria Ivanova",
+      "balance": "25500.00",
+      "history": [
+        {
+          "operation": "interest",
+          "amount": "3500.00",
+          "date": "2026-10-19T13:32:57.888886",
+          "balance_after": "53500.00",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "30000",
+          "date": "2026-10-19T13:32:57.907812",
+          "balance_after": "53500.00",
+          "status": "fail",
+          "reason": "exceeds 50% of balance"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "20000",
+          "date": "2026-10-19T13:32:57.908816",
+          "balance_after": "33500.00",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "2000",
+          "date": "2026-10-19T13:32:58.069790",
+          "balance_after": "35500.00",
+          "status": "success",
+          "transfer_id": "TR-25327E25",
+          "counterparty": "ACC-1002"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "20000",
+          "date": "2026-10-19T13:32:58.071867",
+          "balance_after": "35500.00",
+          "status": "fail",
+          "transfer_id": "TR-3DE28A25",
+          "counterparty": "ACC-1002",
+          "reason": "exceeds 50% of balance"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "10000",
+          "date": "2026-10-19T13:32:58.073147",
+          "balance_after": "25500.00",
+          "status": "success",
+          "transfer_id": "TR-2DEFCBBE",
+          "counterparty": "ACC-1002"
+        }
+      ]
+    },
+    "ACC-1004": {
+      "id": "ACC-1004",
+      "type": "checking",
+      "full_name": "Ivan Sidorov",
+      "balance": "4864.0",
+      "history": [
+        {
+          "operation": "deposit",
+          "amount": "921.0",
+          "date": "2025-09-27T22:17:26",
+          "balance_after": "2121.0",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "607.0",
+          "date": "2025-09-27T22:17:26",
+          "balance_after": "2728.0",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "129.0",
+          "date": "2025-09-28T22:17:00",
+          "balance_after": "2857.0",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "488.0",
+          "date": "2025-09-28T22:17:26",
+          "balance_after": "3345.0",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "880.0",
+          "date": "2025-09-29T22:17:26",
+          "balance_after": "4225.0",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "352.0",
+          "date": "2025-10-01T22:17:26",
+          "balance_after": "3873.0",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "65.0",
+          "date": "2025-10-01T22:17:26",
+          "balance_after": "3808.0",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "245.0",
+          "date": "2025-10-01T22:17:26",
+          "balance_after": "3563.0",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "327.0",
+          "date": "2025-10-05T22:17:26",
+          "balance_after": "3890.0",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "198.0",
+          "date": "2025-10-06T22:17:00",
+          "balance_after": "3692.0",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "333.0",
+          "date": "2025-10-06T22:17:26",
+          "balance_after": "3359.0",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "838.0",
+          "date": "2025-10-12T22:17:26",
+          "balance_after": "4197.0",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "532.0",
+          "date": "2025-10-14T22:17:26",
+          "balance_after": "4729.0",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "393.0",
+          "date": "2025-10-16T22:17:26",
+          "balance_after": "4336.0",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "701.0",
+          "date": "2025-10-16T22:17:26",
+          "balance_after": "5037.0",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "308.0",
+          "date": "2025-10-17T22:17:26",
+          "balance_after": "4729.0",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "135.0",
+          "date": "2025-10-18T22:17:26",
+          "balance_after": "4864.0",
+          "status": "success"
+        }
+      ]
+    },
+    "ACC-1005": {
+      "id": "ACC-1005",
+      "type": "savings",
+      "full_name": "Maria Smirnova",
+      "balance": "3991.24",
+      "history": [
+        {
+          "operation": "deposit",
+          "amount": "469.0",
+          "date": "2025-09-27T22:17:26",
+          "balance_after": "1969.0",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "392.0",
+          "date": "2025-09-27T22:17:26",
+          "balance_after": "1577.0",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "317.0",
+          "date": "2025-09-28T22:17:26",
+          "balance_after": "1894.0",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "840.0",
+          "date": "2025-10-02T22:17:26",
+          "balance_after": "2734.0",
+          "status": "success"
+        },
+        {
+          "operation": "interest",
+          "amount": "183.28",
+          "date": "2025-10-04T22:17:00",
+          "balance_after": "2917.28",
+          "status": "success"
+        },
+        {
+          "operation": "interest",
+          "amount": "192.44",
+          "date": "2025-10-06T22:17:26",
+          "balance_after": "3109.72",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "426.0",
+          "date": "2025-10-08T22:17:26",
+          "balance_after": "3535.72",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "638.0",
+          "date": "2025-10-09T22:17:00",
+          "balance_after": "4173.72",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "170.0",
+          "date": "2025-10-09T22:17:26",
+          "balance_after": "4003.72",
+          "status": "success"
+        },
+        {
+          "operation": "deposit",
+          "amount": "622.0",
+          "date": "2025-10-09T22:17:26",
+          "balance_after": "4625.72",
+          "status": "success"
+        },
+        {
+          "operation": "interest",
+          "amount": "306.26",
+          "date": "2025-10-10T22:17:26",
+          "balance_after": "4931.98",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "278.0",
+          "date": "2025-10-12T22:17:26",
+          "balance_after": "4653.98",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "440.0",
+          "date": "2025-10-13T22:17:26",
+          "balance_after": "4213.98",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "231.0",
+          "date": "2025-10-14T22:17:26",
+          "balance_after": "3982.98",
+          "status": "success"
+        },
+        {
+          "operation": "interest",
+          "amount": "274.13",
+          "date": "2025-10-15T22:17:26",
+          "balance_after": "4257.11",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "286.0",
+          "date": "2025-10-17T22:17:26",
+          "balance_after": "3971.11",
+          "status": "success"
+        },
+        {
+          "operation": "interest",
+          "amount": "302.13",
+          "date": "2025-10-20T22:17:26",
+          "balance_after": "4273.24",
+          "status": "success"
+        },
+        {
+          "operation": "withdraw",
+          "amount": "282.0",
+          "date": "2025-10-23T22:17:26",
+          "balance_after": "3991.24",
+          "status": "success"
+        }
+      ]
+    },
+    "ACC-1006": {
+      "id": "ACC-1006",
+      "type": "checking",
+      "full_name": "Petr Volkov",
+      "balance": "1000",
+      "history": []
+    }
+  },
+  "next_account_number": 1007
+}
